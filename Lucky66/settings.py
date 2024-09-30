@@ -23,11 +23,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-!)r%w9k^-k$n4^-duz04^5&n4aj6pcah67!e72-%$i+7bc!d^v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["crud-django-react-gn21.onrender.com","localhost","127.0.0.1"]
 
-
+CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_WHITELIST = [
+    'https://crud-react-frontend.onrender.com',
+]
 # Application definition
 
 INSTALLED_APPS = [
