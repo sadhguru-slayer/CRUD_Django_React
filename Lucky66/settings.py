@@ -58,7 +58,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ALLOWED_ORIGINS= [
-    'http://localhost:3000',
+    'https://crud-react-frontend.onrender.com',
 ]
 
 ROOT_URLCONF = 'Lucky66.urls'
